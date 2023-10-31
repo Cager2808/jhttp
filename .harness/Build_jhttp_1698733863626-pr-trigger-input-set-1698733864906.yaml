@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jhttp_1698733863626-pr-trigger-input-set
+  identifier: Build_jhttp_1698733863626prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Demo
+  pipeline:
+    identifier: Build_jhttp_1698733863626
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
